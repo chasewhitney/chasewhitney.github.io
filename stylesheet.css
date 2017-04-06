@@ -18,7 +18,7 @@ header nav, footer nav {
 header p, footer p {
   padding: 0 20px;
   font-size: 24px;
-  font-family: 'Archivo Narrow';
+  font-family: 'Archivo Narrow', Arial, sans-serif;
   letter-spacing: .01em;
   text-transform: uppercase;
 }
@@ -46,13 +46,13 @@ header p, footer p {
   font-size: 64px;
   font-weight: 900;
   color: #fff;
-  font-family: 'Julius Sans One';
+  font-family: 'Julius Sans One', Arial, sans-serif;
 }
 
 .jumbotron h3 {  
   font-weight: 900;
   color: white;
-  font-family: 'Julius Sans One';
+  font-family: 'Julius Sans One', Arial, sans-serif;
 }
 
 .topfix a {
@@ -63,7 +63,7 @@ header p, footer p {
 p {
   font-size: 16px;
   line-height: 1.75em;
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
 .bottom { 
@@ -101,7 +101,7 @@ footer {
   font-size: 24px;
   font-style: bold;
   text-transform: uppercase;
-  font-family: 'Archivo Narrow';
+  font-family: 'Archivo Narrow', Arial, sans-serif;
   letter-spacing: .01em;
   position: relative;
 }
