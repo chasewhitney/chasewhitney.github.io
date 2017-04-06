@@ -111,6 +111,10 @@ footer {
   top: -150px;
 }
 
-.cpplink a{position: relative;}
+.cpplink a {
+  position: relative;
+}
 
-.cpplink a:active{top: 3px;}
+.cpplink a:active {
+  top: 3px;
+}
