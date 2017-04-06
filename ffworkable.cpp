@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <stdio.h>\
+//WORK IN PROGRESS
 //Display yields before pieces lost prior to program
 //Changes for heavier density
 //Formula for feedrate
@@ -6,7 +7,8 @@
 //Tweak formula for b
 //Tweak formulat for xm
 
-//Typical part dimensions are - thickness: .75-3, top: 9-14, bottom: 7-16
+// ----Typical part dimensions are - thickness: .75-3, top: 9-14, bottom: 7-16
+// ----All dimensions are measured in and must be entered in sixteenths of an inch. 14.1875, 10.125, 11.9375 etc 
 
 
 int tph, tpw, yield, y2, sub, n, fy1, fy2, z;
