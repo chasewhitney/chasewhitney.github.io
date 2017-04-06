@@ -1,11 +1,113 @@
-#pic {float: right;}
-
-#name {
-font-weight: bold;
-font-size: 42px;
+header {
+  color: white;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index:1000;
 }
 
-#container{
-  width: 600px;
+header a:visited
+{
+ color:#FFFFFF;
 }
 
+
+p {
+  font-size: 16px;
+  line-height: 1.75em;
+  font-family: 'Source Sans Pro';
+}
+
+
+.bottom { 
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: rgb(22, 77, 100);
+  padding-bottom: 60px;
+}
+
+
+.middle {
+  padding-top: 25px;
+}
+
+.top {
+  padding-top: 60px;
+}
+
+
+header nav {
+  display: flex;
+  margin-left: 50px;
+}
+
+
+header p {
+  padding: 0 20px;
+  font-size: 24px;
+  font-family: 'Archivo Narrow';
+letter-spacing: .01em;
+}
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://images.pexels.com/photos/1921/old-machine-valve.jpg?w=1260&h=750&auto=compress&cs=tinysrgb');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+}
+
+.jumbotron h2 {
+  font-size: 64px;
+  font-weight: 900;
+  margin: 0;
+  color: #fff;
+  font-family: 'Julius Sans One';
+}
+
+
+.jumbotron h3 {  
+  font-weight: 900;
+  color: white;
+  font-family: 'Julius Sans One';
+}
+
+
+.colorbar {
+  background-color: #64AEAE;
+  color: white;
+  margin-top: -30px;
+}
+
+.toplink {color: #FFFFFF;
+padding: 20px;}
+
+.toplink:hover {
+  color: #ffffff;
+  background-color: #151515;
+ }
+
+footer
+{
+ color: white;
+  background-color: black;
+width: 100%;
+}
+
+
+footer nav {
+  display: flex;
+  margin-left: 150px;
+  font-size: 16px;
+  font-family: 'Source Sans Pro';
+}
+
+.catagory {
+  font-size: 24px;
+  font-style: bold;
+  text-transform: uppercase;
+  font-family: 'Archivo Narrow';
+  letter-spacing: .01em;
+}
