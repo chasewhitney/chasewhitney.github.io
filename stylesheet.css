@@ -22,7 +22,11 @@ p {
 .bottom { 
   border-width: 0px 0px 1px 0px;
   border-style: solid;
-  border-color: rgb(22, 77, 100);
+  border-color: black;
+  padding-bottom: 60px;
+}
+
+.bottom-no-border { 
   padding-bottom: 60px;
 }
 
@@ -46,7 +50,8 @@ header p {
   padding: 0 20px;
   font-size: 24px;
   font-family: 'Archivo Narrow';
-letter-spacing: .01em;
+  letter-spacing: .01em;
+  text-transform: uppercase;
 }
 
 
@@ -86,7 +91,7 @@ padding: 20px;}
 
 .toplink:hover {
   color: #ffffff;
-  background-color: #151515;
+  background-color: #383737;
  }
 
 footer
