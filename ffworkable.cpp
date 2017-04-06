@@ -6,6 +6,8 @@
 //Tweak formula for b
 //Tweak formulat for xm
 
+//Typical part dimensions are - thickness: .75-3, top: 9-14, bottom: 7-16
+
 
 int tph, tpw, yield, y2, sub, n, fy1, fy2, z;
 float a, b, c, aa, bb, cc, xm;
