@@ -104,10 +104,16 @@ footer nav {
   font-family: 'Source Sans Pro';
 }
 
-.catagory {
+.category {
   font-size: 24px;
   font-style: bold;
   text-transform: uppercase;
   font-family: 'Archivo Narrow';
   letter-spacing: .01em;
+  position: relative;
+}
+
+.category a{
+  position: absolute;
+  top: -50px;
 }
