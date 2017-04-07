@@ -24,8 +24,6 @@ header p, footer p {
 
 .toplink {
   color: #FFFFFF;
-
-
 }
 
 .toplink:hover {
@@ -60,7 +58,7 @@ header p, footer p {
   top: -100px;
 }
 
-p {
+.desc {
   font-size: 16px;
   line-height: 1.75em;
   font-family: 'Source Sans Pro', Arial, sans-serif;
@@ -98,7 +96,7 @@ footer {
 }
 
 .category {
-  font-size: 18px;
+  font-size: 28px;
   font-style: bold;
   text-transform: uppercase;
   font-family: 'Archivo Narrow', Arial, sans-serif;
@@ -117,4 +115,36 @@ footer {
 
 .cpplink a:active {
   top: 1px;
+}
+
+.subhead h3 {
+  color:#64AEAE;
+  margin-top: -10px;
+  font-family: 'Archivo Narrow', Arial, sans-serif;
+font-weight: 900;
+  letter-spacing: .01em;
+  font-size: 20px;
+}
+
+.subhead h4{
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+}
+ li {font-family: 'Source Sans Pro', Arial, sans-serif;
+font-size: 16px;}
+
+.subhead2 h3 {
+  color:#64AEAE;
+  margin-top: -10px;
+  font-family: 'Archivo Narrow', Arial, sans-serif;
+font-weight: 900;
+  letter-spacing: .01em;
+  font-size: 20px;
+}
+
+.subhead2 h4{
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 16px;
 }
