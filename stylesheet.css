@@ -16,7 +16,7 @@ header nav, footer nav {
 }
 
 header p, footer p {
-  padding: 5 20px;
+  padding: 0px 20px;
   font-size: 16px;
   font-family: 'Source Sans Pro', Arial, sans-serif;
   letter-spacing: .01em;
@@ -25,6 +25,7 @@ header p, footer p {
 
 .toplink {
   color: #FFFFFF;
+  padding: 20px;
 
 }
 
