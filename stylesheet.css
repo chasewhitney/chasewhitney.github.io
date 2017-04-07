@@ -16,16 +16,16 @@ header nav, footer nav {
 }
 
 header p, footer p {
-  padding: 0 20px;
-  font-size: 24px;
-  font-family: 'Archivo Narrow', Arial, sans-serif;
+  padding: 5 20px;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
   letter-spacing: .01em;
   text-transform: uppercase;
 }
 
 .toplink {
   color: #FFFFFF;
-  padding: 20px;
+
 }
 
 .toplink:hover {
@@ -98,7 +98,7 @@ footer {
 }
 
 .category {
-  font-size: 24px;
+  font-size: 18px;
   font-style: bold;
   text-transform: uppercase;
   font-family: 'Archivo Narrow', Arial, sans-serif;
